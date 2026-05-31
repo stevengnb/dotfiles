@@ -21,5 +21,4 @@ cd ~/Documents/projects/dotfiles
 | pop-shell | Tiling config |
 | ulauncher | Launcher settings + shortcuts |
 | copyq | Clipboard manager config |
-| fastfetch | System info display |
 | dconf | GNOME keybindings + workspace shortcuts |

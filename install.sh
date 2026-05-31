@@ -14,9 +14,6 @@ symlink() {
 symlink "$DOTFILES/zsh/.zshrc" "$HOME/.zshrc"
 symlink "$DOTFILES/zsh/.p10k.zsh" "$HOME/.p10k.zsh"
 
-# Git
-symlink "$DOTFILES/git/.gitconfig" "$HOME/.gitconfig"
-
 # Tmux
 symlink "$DOTFILES/tmux/.tmux.conf" "$HOME/.tmux.conf"
 
@@ -39,9 +36,6 @@ symlink "$DOTFILES/ulauncher/extensions.json" "$HOME/.config/ulauncher/extension
 symlink "$DOTFILES/copyq/copyq.conf" "$HOME/.config/copyq/copyq.conf"
 symlink "$DOTFILES/copyq/copyq-commands.ini" "$HOME/.config/copyq/copyq-commands.ini"
 symlink "$DOTFILES/copyq/copyq_tabs.ini" "$HOME/.config/copyq/copyq_tabs.ini"
-
-# Fastfetch
-symlink "$DOTFILES/fastfetch/config.jsonc" "$HOME/.config/fastfetch/config.jsonc"
 
 # Autostart
 symlink "$DOTFILES/autostart/com.github.hluk.copyq.desktop" "$HOME/.config/autostart/com.github.hluk.copyq.desktop"
