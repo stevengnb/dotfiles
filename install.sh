@@ -37,6 +37,9 @@ symlink "$DOTFILES/copyq/copyq.conf" "$HOME/.config/copyq/copyq.conf"
 symlink "$DOTFILES/copyq/copyq-commands.ini" "$HOME/.config/copyq/copyq-commands.ini"
 symlink "$DOTFILES/copyq/copyq_tabs.ini" "$HOME/.config/copyq/copyq_tabs.ini"
 
+# Cheatsheets
+symlink "$DOTFILES/cheatsheets" "$HOME/.config/cheatsheets"
+
 # Autostart
 symlink "$DOTFILES/autostart/com.github.hluk.copyq.desktop" "$HOME/.config/autostart/com.github.hluk.copyq.desktop"
 symlink "$DOTFILES/autostart/ulauncher.desktop" "$HOME/.config/autostart/ulauncher.desktop"

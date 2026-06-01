@@ -127,7 +127,9 @@ export NVM_DIR="$HOME/.nvm"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias tmuxk='batcat ~/.config/cheatsheets/tmux-keybinds.md'
+alias gitak='batcat ~/.config/cheatsheets/git-aliases.md'
 alias tma='tmux attach'
+alias gitnuke='git clean -df && git reset HEAD --hard'
 alias set-volume="wpctl set-volume @DEFAULT_AUDIO_SINK@"
 export PATH="$HOME/.local/bin:$PATH"
 eval "$(zoxide init zsh)"
